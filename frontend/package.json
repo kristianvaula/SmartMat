@@ -1,0 +1,63 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "cross-env NODE_ENV=development nuxt dev",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "vitest": "vitest",
+    "vitest:coverage": "vitest run --coverage",
+    "test:e2e": "test:e2e"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.10.4",
+    "@cypress/webpack-preprocessor": "^5.17.0",
+    "@nuxtjs/tailwindcss": "^6.6.6",
+    "@pinia-plugin-persistedstate/nuxt": "^1.1.1",
+    "@types/axios-mock-adapter": "^1.10.0",
+    "@types/fetch-mock": "^7.3.5",
+    "@types/jest": "^29.5.1",
+    "@types/jsdom": "^21.1.1",
+    "@types/node": "^18",
+    "@types/qs": "^6.9.7",
+    "@vitejs/plugin-vue": "^4.2.1",
+    "@vitest/coverage-c8": "^0.31.0",
+    "@vitest/coverage-istanbul": "^0.31.0",
+    "@vue/test-utils": "^2.3.2",
+    "@windicss/plugin-utils": "^1.8.10",
+    "autoprefixer": "^10.4.14",
+    "axios-mock-adapter": "^1.21.4",
+    "cross-env": "^7.0.3",
+    "cypress": "^12.10.0",
+    "fetch-mock": "^9.11.0",
+    "jsdom": "^22.0.0",
+    "nuxt": "^3.4.1",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "v8-to-istanbul": "^9.1.0",
+    "vitest": "^0.31.0",
+    "windicss": "^3.5.6"
+  },
+  "dependencies": {
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/i18n": "^8.0.0-beta.11",
+    "@pinia/nuxt": "^0.4.8",
+    "@types/chart.js": "^2.9.37",
+    "axios": "^1.3.6",
+    "chart.js": "^4.3.0",
+    "jest-localstorage-mock": "^2.4.26",
+    "nuxt-headlessui": "^1.1.4",
+    "pinia": "^2.0.34",
+    "qs": "^6.11.1",
+    "vite": "^4.3.4",
+    "vuex": "^4.0.2"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}

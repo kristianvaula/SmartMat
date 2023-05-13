@@ -1,0 +1,32 @@
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+.DS_Store
+
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+
+.idea/
+*.iml
+*xml
+
+# cypress
+/cypress/screenshots
+/cypress/videos
+
+
+# vitest
+coverage
