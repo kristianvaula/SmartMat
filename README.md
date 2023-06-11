@@ -1,4 +1,5 @@
 # SmartMat
+SmartMat was a 3+1 week project which made up the course Systemutvikling 2. We were provided with a Vision Document by our product owners describing the aims and requirements for the application. The goal was to develop a application that helps the customer manage his food inventory and provide ways to reduce food waste. Our team consisting of 7 people were to use Scrum agile project management to structure and manage our workflow throughout the project. We were graded based on the product, process and documentation. We split the workforce mostly based on feature to improve each members learning experience. I mostly worked on the things regarding group/family administration as well as the recipe part of the system. 
 
 ##
 
